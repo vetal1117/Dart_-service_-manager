@@ -15,26 +15,17 @@
 	padding: 50px 0px 185px 0px;
 	width: 100%;
 	background: url(/img/main_bg.jpg) center / cover no-repeat;
+	font-family: Raleway;
+	.container {
+		padding: 0px 15px 0px 15px;
+	}
 
 	&__top {
 		flex-wrap: wrap;
-		font-family: Raleway;
 		display: flex;
 		justify-content: space-between;
 		align-items: center;
-		margin: 0px 0px 169px 0px;
-	}
-
-	&__logo {
-	}
-
-	&__menu {
-	}
-
-	&__button-top {
-		border: 1px solid white;
-		padding: 6px 20px;
-		border-radius: 2px;
+		padding: 0px 0px 169px 0px;
 	}
 
 	&__button-top-link {
@@ -42,27 +33,52 @@
 		line-height: 25px;
 		font-weight: 400;
 		color: #ffffff;
+		padding: 6px 20px;
+		display: inline-flex;
+		border-radius: 2px;
+		border: 1px solid white;
 	}
 
-	&__column {
+	&__row {
+		display: flex;
 	}
 
 	&__content {
+		margin-right: 260px;
+		flex: 0 1 580px;
 	}
 
 	&__title {
+		font-size: 55px;
+		line-height: 65px;
+		font-weight: 800;
+		text-transform: uppercase;
+		color: #ffffff;
+		padding-bottom: 25px;
 	}
 
 	&__text {
+		font-size: 18px;
+		line-height: 35px;
+		font-weight: 400;
+		color: #ffffff;
+		padding-bottom: 30px;
 	}
 
 	&__button-content {
-	}
-
-	&__button-content-link {
+		padding-bottom: 30px;
+		:first-child {
+			margin-right: 30px;
+		}
 	}
 
 	&__video {
+		flex: 0 1 680px;
+
+		video {
+			width: 100%;
+			min-width: 300px;
+		}
 	}
 }
 
@@ -103,13 +119,27 @@
 
 	&__link {
 		color: white;
-		&:active{
+		&:active {
 			color: #000;
-			font-weight: 800;
+			//font-weight: 800;
+			box-shadow: 5px 5px 7px lime;
+			padding: 0;
 		}
 	}
 }
 .btn {
-}
-.btn--w {
+	box-shadow: 0px 5px 5px 0px rgba(0, 0, 0, 0.15);
+	border-radius: 5px;
+	border: 1px solid black;
+	padding: 20px 40px;
+	font-size: 15px;
+	line-height: 1.2;
+	font-weight: 700;
+	text-transform: uppercase;
+	background-color: blanchedalmond;
+	color: black;
+	&:hover {
+		background-color: #061e37;
+		color: white;
+	}
 }

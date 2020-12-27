@@ -87,12 +87,16 @@ h1, h2, h3, h4, h5, h6 {
   padding: 50px 0px 185px 0px;
   width: 100%;
   background: url(/img/main_bg.jpg) center/cover no-repeat;
+  font-family: Raleway;
+}
+
+.header .container {
+  padding: 0px 15px 0px 15px;
 }
 
 .header__top {
   -ms-flex-wrap: wrap;
       flex-wrap: wrap;
-  font-family: Raleway;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -102,13 +106,7 @@ h1, h2, h3, h4, h5, h6 {
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
-  margin: 0px 0px 169px 0px;
-}
-
-.header__button-top {
-  border: 1px solid white;
-  padding: 6px 20px;
-  border-radius: 2px;
+  padding: 0px 0px 169px 0px;
 }
 
 .header__button-top-link {
@@ -116,6 +114,61 @@ h1, h2, h3, h4, h5, h6 {
   line-height: 25px;
   font-weight: 400;
   color: #ffffff;
+  padding: 6px 20px;
+  display: -webkit-inline-box;
+  display: -ms-inline-flexbox;
+  display: inline-flex;
+  border-radius: 2px;
+  border: 1px solid white;
+}
+
+.header__row {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.header__content {
+  margin-right: 260px;
+  -webkit-box-flex: 0;
+      -ms-flex: 0 1 580px;
+          flex: 0 1 580px;
+}
+
+.header__title {
+  font-size: 55px;
+  line-height: 65px;
+  font-weight: 800;
+  text-transform: uppercase;
+  color: #ffffff;
+  padding-bottom: 25px;
+}
+
+.header__text {
+  font-size: 18px;
+  line-height: 35px;
+  font-weight: 400;
+  color: #ffffff;
+  padding-bottom: 30px;
+}
+
+.header__button-content {
+  padding-bottom: 30px;
+}
+
+.header__button-content :first-child {
+  margin-right: 30px;
+}
+
+.header__video {
+  -webkit-box-flex: 0;
+      -ms-flex: 0 1 680px;
+          flex: 0 1 680px;
+}
+
+.header__video video {
+  width: 100%;
+  min-width: 300px;
 }
 
 .logo {
@@ -175,5 +228,26 @@ h1, h2, h3, h4, h5, h6 {
 
 .menu__link:active {
   color: #000;
-  font-weight: 800;
+  -webkit-box-shadow: 5px 5px 7px lime;
+          box-shadow: 5px 5px 7px lime;
+  padding: 0;
+}
+
+.btn {
+  -webkit-box-shadow: 0px 5px 5px 0px rgba(0, 0, 0, 0.15);
+          box-shadow: 0px 5px 5px 0px rgba(0, 0, 0, 0.15);
+  border-radius: 5px;
+  border: 1px solid black;
+  padding: 20px 40px;
+  font-size: 15px;
+  line-height: 1.2;
+  font-weight: 700;
+  text-transform: uppercase;
+  background-color: blanchedalmond;
+  color: black;
+}
+
+.btn:hover {
+  background-color: #061e37;
+  color: white;
 }
