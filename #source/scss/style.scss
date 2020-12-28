@@ -1,87 +1,12 @@
 @import url("https://fonts.googleapis.com/css2?family=Raleway:wght@400;500;600;700;800&family=Roboto&display=swap");
 @import "nullscss.scss";
-
+//================================================================================================================================================================================================================
 .container {
 	max-width: 1440px;
 	margin: 0 auto;
 	width: 100%;
 }
-
-.wrapper {
-	min-height: 100%;
-	overflow: hidden;
-}
-.header {
-	padding: 50px 0px 185px 0px;
-	width: 100%;
-	background: url(/img/main_bg.jpg) center / cover no-repeat;
-	font-family: Raleway;
-	.container {
-		padding: 0px 15px 0px 15px;
-	}
-
-	&__top {
-		flex-wrap: wrap;
-		display: flex;
-		justify-content: space-between;
-		align-items: center;
-		padding: 0px 0px 169px 0px;
-	}
-
-	&__button-top-link {
-		font-size: 12px;
-		line-height: 25px;
-		font-weight: 400;
-		color: #ffffff;
-		padding: 6px 20px;
-		display: inline-flex;
-		border-radius: 2px;
-		border: 1px solid white;
-	}
-
-	&__row {
-		display: flex;
-	}
-
-	&__content {
-		margin-right: 260px;
-		flex: 0 1 580px;
-	}
-
-	&__title {
-		font-size: 55px;
-		line-height: 65px;
-		font-weight: 800;
-		text-transform: uppercase;
-		color: #ffffff;
-		padding-bottom: 25px;
-	}
-
-	&__text {
-		font-size: 18px;
-		line-height: 35px;
-		font-weight: 400;
-		color: #ffffff;
-		padding-bottom: 30px;
-	}
-
-	&__button-content {
-		padding-bottom: 30px;
-		:first-child {
-			margin-right: 30px;
-		}
-	}
-
-	&__video {
-		flex: 0 1 680px;
-
-		video {
-			width: 100%;
-			min-width: 300px;
-		}
-	}
-}
-
+//================================================================================================================================================================================================================
 .logo {
 	flex-wrap: wrap;
 	margin: 0 -5px;
@@ -128,6 +53,8 @@
 	}
 }
 .btn {
+	text-align: center;
+	display: inline-flex;
 	box-shadow: 0px 5px 5px 0px rgba(0, 0, 0, 0.15);
 	border-radius: 5px;
 	border: 1px solid black;
@@ -142,4 +69,173 @@
 		background-color: #061e37;
 		color: white;
 	}
+}
+//================================================================================================================================================================================================================
+.wrapper {
+	min-height: 100%;
+	overflow: hidden;
+}
+//================================================================================================================================================================================================================
+.header {
+	//min-height: 100vh;
+	padding: 50px 0px 185px 0px;
+	width: 100%;
+	background: url(/img/main_bg.jpg) center / cover no-repeat;
+	font-family: Raleway;
+	.container {
+		padding: 0px 15px 0px 15px;
+		display: flex;
+		flex-direction: column;
+	}
+
+	&__top {
+		flex-wrap: wrap;
+		display: flex;
+		justify-content: space-between;
+		align-items: center;
+		padding: 0px 0px 169px 0px;
+	}
+
+	&__button-top-link {
+		font-size: 12px;
+		line-height: 25px;
+		font-weight: 400;
+		color: #ffffff;
+		padding: 6px 20px;
+		display: inline-flex;
+		border-radius: 2px;
+		border: 1px solid white;
+	}
+
+	&__row {
+		display: flex;
+		align-items: center;
+	}
+
+	&__content {
+		margin-right: 260px;
+		flex: 0 1 580px;
+	}
+
+	&__title {
+		font-size: 55px;
+		line-height: 65px;
+		font-weight: 800;
+		text-transform: uppercase;
+		color: #ffffff;
+		padding-bottom: 25px;
+	}
+
+	&__text {
+		font-size: 18px;
+		line-height: 35px;
+		font-weight: 400;
+		color: #ffffff;
+		padding-bottom: 30px;
+	}
+
+	&__button-content {
+		padding-bottom: 30px;
+		:first-child {
+			margin-right: 30px;
+		}
+	}
+
+	&__video {
+		flex: 0 1 680px;
+
+		video {
+			width: 100%;
+			min-width: 300px;
+		}
+	}
+}
+//================================================================================================================================================================================================================
+.content {
+	&__about {
+		//min-height: 100vh;
+		padding: 100px 100px;
+	}
+}
+
+.about {
+	font-family: Raleway;
+	&__all-column {
+		display: flex;
+		flex-direction: column;
+		padding: 0px 15px 0px 15px;
+	}
+
+	&__header {
+		display: flex;
+		flex-direction: column;
+		align-items: center;
+		max-width: 550px;
+		margin: 0 auto;
+		text-align: center;
+		margin-bottom: 97px;
+	}
+
+	&__title {
+		font-size: 45px;
+		line-height: 1.2;
+		font-weight: 600;
+		color: #061e37;
+	}
+
+	&__subtitle {
+		font-size: 25px;
+		line-height: 1.2;
+		font-weight: 600;
+		color: #b0bec5;
+		padding: 0px 0px 15px 0px;
+	}
+
+	&__text {
+		font-size: 15px;
+		line-height: 1.2;
+		font-weight: 400;
+		color: #b0bec5;
+	}
+	// выровнять элементы
+	&__content {
+		display: flex;
+		flex: 0 1 33.333%;
+		text-align: center;
+		margin: 0 -100px;
+		margin: 0px 0px 75px 0px;
+	}
+
+	&__content-column {
+		padding: 0px 100px;
+	}
+
+	&__button {
+		text-align: center;
+	}
+	&__button-link {
+		background-color: #1de9b6;
+		color: #ffffff;
+	}
+}
+.column {
+	&__image {
+		padding: 0px 0px 45px 0px;
+	}
+
+	&__title {
+		font-size: 20px;
+		line-height: 25px;
+		font-weight: 600;
+		color: #061e37;
+		padding: 0px 0px 20px 0px;
+	}
+
+	&__text {
+		font-size: 15px;
+		line-height: 20px;
+		font-weight: 400;
+		color: #78909c;
+	}
+	// не смог обратиться к модификатору .btn--color {}
 }
