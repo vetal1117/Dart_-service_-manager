@@ -77,11 +77,14 @@
 }
 //================================================================================================================================================================================================================
 .header {
-	//min-height: 100vh;
+	display: none;
+	min-height: 100vh;
 	padding: 50px 0px 185px 0px;
 	width: 100%;
 	background: url(/img/main_bg.jpg) center / cover no-repeat;
 	font-family: Raleway;
+	position: relative;
+
 	.container {
 		padding: 0px 15px 0px 15px;
 		display: flex;
@@ -92,8 +95,8 @@
 		flex-wrap: wrap;
 		display: flex;
 		justify-content: space-between;
-		align-items: center;
 		padding: 0px 0px 169px 0px;
+		height: 100%;
 	}
 
 	&__button-top-link {
@@ -110,6 +113,8 @@
 	&__row {
 		display: flex;
 		align-items: center;
+		height: 100%;
+		position: absolute;
 	}
 
 	&__content {
@@ -153,8 +158,10 @@
 //================================================================================================================================================================================================================
 .content {
 	&__about {
-		//min-height: 100vh;
-		padding: 100px 100px;
+		display: flex;
+		align-items: center;
+		min-height: 100vh;
+		padding: 100px 0 100px 0;
 	}
 }
 
@@ -197,7 +204,7 @@
 		font-weight: 400;
 		color: #b0bec5;
 	}
-	// выровнять элементы
+
 	&__content {
 		display: flex;
 		flex: 0 1 33.333%;
@@ -221,6 +228,9 @@
 .column {
 	&__image {
 		padding: 0px 0px 45px 0px;
+		:nth-child(2) {
+			max-height: 70px;
+		}
 	}
 
 	&__title {
@@ -237,5 +247,53 @@
 		font-weight: 400;
 		color: #78909c;
 	}
-	// не смог обратиться к модификатору .btn--color {}
+}
+//================================================================================================================================================================================================================
+.content {
+	.container {
+		max-width: 1600px;
+		margin: 0 auto;
+	}
+
+	&__statistic {
+	}
+
+	&__statistic-row {
+		display: flex;
+	}
+
+	&__statistic-column1 {
+		background: #80d8ff;
+	}
+	&__statistic-column2 {
+		background: #82b1ff;
+	}
+	&__statistic-column3 {
+		background: #b388ff;
+	}
+	&__statistic-column4 {
+		background: #ea80fc;
+	}
+}
+
+.statistic-column {
+	flex: 0 1 25%;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	padding: 60px 0px;
+
+	&__image {
+		img {
+		}
+	}
+
+	&__text {
+	}
+
+	&__main-text {
+	}
+
+	&__second-text {
+	}
 }
