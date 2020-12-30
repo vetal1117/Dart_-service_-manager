@@ -77,7 +77,7 @@
 }
 //================================================================================================================================================================================================================
 .header {
-	display: none;
+	
 	min-height: 100vh;
 	padding: 50px 0px 185px 0px;
 	width: 100%;
@@ -252,7 +252,8 @@
 .content {
 
 
-   &__statistic {display: none;
+   &__statistic {
+		//display: none;
       	.container {
       
 		max-width: 1600px;
@@ -304,100 +305,69 @@
 
 
 
-
-
+//================================================================================================================================================================================================================
 .content {
 
+	&__services {
+	}
 
-   &__services {
-   }
+	&__services-column {
+		.container {
+			max-width: 800px;
+			margin: 0 auto;
+		}
+	}
 
-   &__services-column {
-      text-align: center;
-      .container{margin: 0 auto;
-      max-width: 800px;
-   }
-      
-   }
+	&__top-title {
+	}
 
-   &__title {
-      padding: 50px 0;
-      
+	&__row {
+	}
 
-   }
+	&__top {
+	}
 
-   &__subtitle {
-      padding-bottom: 30px;
-   }
+	&__top-top {
+	}
+
+	&__main-top {
+	}
+
+	&__mini-logo {
+	}
+
+	&__mini-logotext {
+	}
+
+	&__mini-arrow {
+	}
+
+	&__item-image {
+	}
+
+	&__item-text {
+	}
+
+	&__maintop {
+	}
 }
 
+.top-title {
 
-.title {
-   font-size: 50px;
-   font-weight: 600;
+	&__title {
+	}
+
+	&__subtitle {
+	}
 }
-.subtitle {
-   color:#2c3a4d;
+.maintop {
+
+	&__minilogo {
+	}
+
+	&__minilogotext {
+	}
+
+	&__arrow {
+	}
 }
-.services-column {
-
-   &__row {
-   }
-
-   &__top {
-      margin-bottom: 10px;
-
-   }
-
-   &__maintop {
-      display: flex;
-      align-items: center;
-      height: 50px;
-      border: 1px solid #000;
-   }
-
-   &__minilogo {
-      padding: 0 25px;
-   }
-
-   &__minilogotext {
-      font-weight: 600;
-   }
-
-   &__arrow {
-      padding: 0 25px;
-      display: flex;
-      justify-content: flex-end;
-      flex: 1 1 auto;
-   }
-
-   &__item {
-      display: flex;
-   }
-
-   &__item-image {
-   }
-
-   &__item-text {
-      p{
-         font-size: 24px;
-      padding: 0px 0px 30px 15px;
-      }
-   }
-}
-.column {
-   display: flex;
-
-   &__maintop {
-   }
-}
-
-
-
-
-
-
-
-
-
-
