@@ -328,24 +328,46 @@
 	}
 
 	&__top-top {
+      border: 1px solid #000;
+      margin-bottom: 10px;
 	}
 
 	&__main-top {
+      display: flex;
+      height: 50px;
+      align-items: center;
 	}
 
 	&__mini-logo {
+      padding: 0 15px;
 	}
 
 	&__mini-logotext {
+      font-size: 20px;
+      font-weight: 500;
+
 	}
 
 	&__mini-arrow {
+      display: flex;
+      flex: 1 1 auto;
+      justify-content: flex-end;
+      padding: 0 20px;
 	}
 
 	&__item-image {
+      max-width: 100%;
+      display: inline-flex;
+      
+      img{
+         border: 1px solid #000;
+         border-radius: 9px;
+         right: 0;
+      }
 	}
 
 	&__item-text {
+      float: right;
 	}
 
 	&__maintop {
@@ -361,13 +383,33 @@
 	}
 }
 .maintop {
+   display: flex;
+   border: 1px solid #000;
+   margin-bottom: 10px;
+   height: 50px;
+   align-items: center;
 
 	&__minilogo {
+      padding: 0 20px;
+
+
 	}
 
 	&__minilogotext {
+      font-size: 15px;
+      text-transform: uppercase;
+      font-weight: 600;
+      
+      
 	}
 
 	&__arrow {
-	}
+      display: flex;
+      flex: 1 1 auto;
+      justify-content: flex-end;
+      padding: 0 20px;
+      
+      
+      
+     }
 }
