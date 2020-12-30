@@ -429,36 +429,33 @@ h1, h2, h3, h4, h5, h6 {
   padding: 60px 0px;
 }
 
-.content__services .container {
-  max-width: 800px;
+.content__services-column {
+  text-align: center;
+}
+
+.content__services-column .container {
   margin: 0 auto;
-  padding-bottom: 100px;
-  margin-top: -350px;
-  margin-bottom: 200px;
+  max-width: 800px;
 }
 
 .content__title {
-  padding: 75px 0;
-  font-size: 45px;
+  padding: 50px 0;
 }
 
 .content__subtitle {
-  padding-bottom: 50px;
-  font-size: 15px;
-  color: #1de9b6;
+  padding-bottom: 30px;
 }
 
 .title {
-  text-align: center;
-  font-weight: 800;
+  font-size: 50px;
+  font-weight: 600;
 }
 
 .subtitle {
-  text-align: center;
+  color: #2c3a4d;
 }
 
 .services-column__top {
-  line-height: 50px;
   margin-bottom: 10px;
 }
 
@@ -466,53 +463,47 @@ h1, h2, h3, h4, h5, h6 {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  height: 50px;
+  border: 1px solid #000;
 }
 
 .services-column__minilogo {
-  width: 18px;
-  height: 18px;
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  margin: 0 25px;
+  padding: 0 25px;
 }
 
 .services-column__minilogotext {
-  font-size: 15px;
   font-weight: 600;
-  -webkit-box-flex: 1;
-      -ms-flex: 1 1 auto;
-          flex: 1 1 auto;
 }
 
 .services-column__arrow {
-  height: 6px;
+  padding: 0 25px;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
   -webkit-box-pack: end;
       -ms-flex-pack: end;
           justify-content: flex-end;
-  -ms-flex-item-align: center;
-      align-self: center;
-  margin: 0px 25px 0px 25px;
+  -webkit-box-flex: 1;
+      -ms-flex: 1 1 auto;
+          flex: 1 1 auto;
 }
 
-.services-column__imagetext {
+.services-column__item {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
-  margin: 0 -12.5px;
 }
 
-.services-column__it {
+.services-column__item-text p {
+  font-size: 24px;
+  padding: 0px 0px 30px 15px;
+}
+
+.column {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
-  border-radius: 12px;
-  padding: 0 12.5px;
-}
-
-.top {
-  border: 1px solid #f2f2f2;
 }

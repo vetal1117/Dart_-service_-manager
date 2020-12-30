@@ -306,109 +306,98 @@
 
 
 
-
-
-
-
 .content {
 
-   &__services {
-      .container{
-         max-width: 800px;
-         margin: 0 auto;
-         padding-bottom: 100px;
-         margin-top: -350px;
-         margin-bottom: 200px;
-   }
 
+   &__services {
    }
 
    &__services-column {
+      text-align: center;
+      .container{margin: 0 auto;
+      max-width: 800px;
+   }
+      
    }
 
    &__title {
-      padding: 75px 0;
-      font-size: 45px;
+      padding: 50px 0;
+      
+
    }
 
    &__subtitle {
-      padding-bottom: 50px;
-      font-size: 15px;
-      color:#1de9b6;
+      padding-bottom: 30px;
    }
 }
 
+
 .title {
-   text-align: center;
-   font-weight: 800;
+   font-size: 50px;
+   font-weight: 600;
 }
 .subtitle {
-   text-align: center;
+   color:#2c3a4d;
 }
 .services-column {
-   
 
    &__row {
    }
 
    &__top {
-      line-height: 50px;
-      
       margin-bottom: 10px;
 
    }
 
-
-
-
-		&__maintop {
-         display: flex;
-
-		}
-
-
+   &__maintop {
+      display: flex;
+      align-items: center;
+      height: 50px;
+      border: 1px solid #000;
+   }
 
    &__minilogo {
-      width: 18px;
-      height: 18px;
-      display: flex;
-      margin: 0 25px;
+      padding: 0 25px;
    }
 
    &__minilogotext {
-      font-size: 15px;
       font-weight: 600;
-      flex: 1 1 auto;
-      
    }
 
    &__arrow {
-      height: 6px;
+      padding: 0 25px;
       display: flex;
       justify-content: flex-end;
-      align-self: center;
-      margin: 0px 25px 0px 25px;
-
+      flex: 1 1 auto;
    }
 
-		&__imagetext {
-         display: flex;
-         margin: 0 -12.5px;
-		}
+   &__item {
+      display: flex;
+   }
 
-		&__it {
-         //border: 1px solid #000;
-         display: flex;
-         border-radius: 12px;
-         padding: 0 12.5px;
-		}
+   &__item-image {
+   }
 
-		&__ti {
-		}
-
+   &__item-text {
+      p{
+         font-size: 24px;
+      padding: 0px 0px 30px 15px;
+      }
+   }
 }
-.top {
-   border: 1px solid #f2f2f2;
-   //align-items:center;
-   //display: flex;
+.column {
+   display: flex;
+
+   &__maintop {
+   }
 }
+
+
+
+
+
+
+
+
+
+
