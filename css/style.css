@@ -196,7 +196,6 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 .header {
-  display: none;
   min-height: 100vh;
   padding: 50px 0px 185px 0px;
   width: 100%;
@@ -318,7 +317,6 @@ h1, h2, h3, h4, h5, h6 {
           align-items: center;
   min-height: 100vh;
   padding: 100px 0 100px 0;
-  display: none;
 }
 
 .about {
@@ -439,7 +437,6 @@ h1, h2, h3, h4, h5, h6 {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
-  display: none;
 }
 
 .content__statistic-column1 {
@@ -506,7 +503,6 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 .content__services {
-  display: none;
   min-height: 100vh;
   font-family: Raleway;
   padding: 100px 0;
@@ -757,7 +753,7 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 .content__portfolio {
-  padding: 40px 80px;
+  padding: 37px 80px;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -791,7 +787,6 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 .content__more-info {
-  position: relative;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -832,17 +827,6 @@ h1, h2, h3, h4, h5, h6 {
   border-radius: 5px;
   line-height: 25px;
   padding: 32px 64px 30px 30px;
-}
-
-.info__text::before {
-  content: "";
-  background-image: url("/img/icons/keyboard_arrow_up_563.png");
-  background-repeat: no-repeat;
-  height: 14px;
-  width: 23px;
-  position: absolute;
-  top: 0;
-  left: 0px;
 }
 
 .info__title {
