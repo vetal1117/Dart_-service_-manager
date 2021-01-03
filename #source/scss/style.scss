@@ -63,7 +63,6 @@
 		color: white;
 		&:active {
 			color: #000;
-			//font-weight: 800;
 			box-shadow: 5px 5px 7px lime;
 			padding: 0;
 		}
@@ -96,11 +95,11 @@
 }
 //================================================================================================================================================================================================================
 .header {
-	//display: none;
+	display: none;
 	min-height: 100vh;
 	padding: 50px 0px 185px 0px;
 	width: 100%;
-	background: url(/img/main_bg.jpg) center / cover no-repeat;
+	background: url("/img/main_bg.jpg") center / cover no-repeat;
 	font-family: Raleway;
 
 	.container {
@@ -187,7 +186,7 @@
 		align-items: center;
 		min-height: 100vh;
 		padding: 100px 0 100px 0;
-		//display: none;
+		display: none;
 	}
 }
 
@@ -285,6 +284,7 @@
 .content {
 	&__statistic-row {
 		display: flex;
+		display: none;
 	}
 
 	&__statistic-column1 {
@@ -342,6 +342,7 @@
 //================================================================================================================================================================================================================
 .content {
 	&__services {
+		display: none;
 		min-height: 100vh;
 		font-family: Raleway;
 		padding: 100px 0;
@@ -460,3 +461,102 @@
 }
 
 //================================================================================================================================================================================================================
+.content {
+	&__portfolio {
+		padding: 40px 80px;
+		display: flex;
+		justify-content: space-between;
+		background-image: linear-gradient(-53deg, #00b8d4 21%, #1de9b6 78%);
+		opacity: 0.94;
+		background-color: #1de9b6;
+	}
+
+	&__portfolio-content {
+		color: #ffffff;
+		font-family: Raleway;
+		font-weight: 600;
+		flex: 0 1 32.19%;
+	}
+
+	&__portfolio-title {
+		font-size: 45px;
+		line-height: 1.2;
+		padding-bottom: 19px;
+	}
+
+	&__portfoli-text {
+		font-size: 15px;
+		line-height: 25px;
+		padding-bottom: 75px;
+	}
+
+	&__more-info {
+		position: relative;
+		display: flex;
+		flex-direction: column;
+		flex: 0 1 47.5%;
+	}
+
+	&__info {
+		margin-bottom: 70px;
+		:last-child {
+			margin-bottom: 0;
+		}
+
+	}
+
+	&__info-next {
+	}
+}
+.portfolio {
+	&__button-content {
+	}
+
+	&__button-content-link {
+	}
+}
+.btn {
+}
+.info {
+	display: flex;
+	align-items: center;
+		
+
+	&__img {
+		padding-right: 50px;
+	}
+
+	&__text {
+		background-color: #ffffff;
+		box-shadow: 0px 5px 10px 0px rgba(0, 0, 0, 0.15);
+		border-radius: 5px;
+		line-height: 25px;
+		padding: 32px 64px 30px 30px;
+				&::before {
+			content: ('');
+			background-image: url('/img/icons/keyboard_arrow_up_563.png');
+			background-repeat: no-repeat;
+			height: 14px;
+			width: 23px;
+			position: absolute;
+			top: 0;
+			left: 0px;
+
+
+		}
+		
+	}
+
+	&__title {
+		font-size: 18px;
+
+		font-weight: 700;
+		color: #061e37;
+	}
+
+	&__subtitle {
+		font-size: 15px;
+		font-weight: 400;
+		color: #78909c;
+	}
+}

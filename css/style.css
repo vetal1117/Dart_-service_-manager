@@ -196,10 +196,11 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 .header {
+  display: none;
   min-height: 100vh;
   padding: 50px 0px 185px 0px;
   width: 100%;
-  background: url(/img/main_bg.jpg) center/cover no-repeat;
+  background: url("/img/main_bg.jpg") center/cover no-repeat;
   font-family: Raleway;
 }
 
@@ -317,6 +318,7 @@ h1, h2, h3, h4, h5, h6 {
           align-items: center;
   min-height: 100vh;
   padding: 100px 0 100px 0;
+  display: none;
 }
 
 .about {
@@ -437,6 +439,7 @@ h1, h2, h3, h4, h5, h6 {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
+  display: none;
 }
 
 .content__statistic-column1 {
@@ -503,6 +506,7 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 .content__services {
+  display: none;
   min-height: 100vh;
   font-family: Raleway;
   padding: 100px 0;
@@ -664,4 +668,105 @@ h1, h2, h3, h4, h5, h6 {
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
+}
+
+.content__portfolio {
+  padding: 40px 80px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  background-image: linear-gradient(-53deg, #00b8d4 21%, #1de9b6 78%);
+  opacity: 0.94;
+  background-color: #1de9b6;
+}
+
+.content__portfolio-content {
+  color: #ffffff;
+  font-family: Raleway;
+  font-weight: 600;
+  -webkit-box-flex: 0;
+      -ms-flex: 0 1 32.19%;
+          flex: 0 1 32.19%;
+}
+
+.content__portfolio-title {
+  font-size: 45px;
+  line-height: 1.2;
+  padding-bottom: 19px;
+}
+
+.content__portfoli-text {
+  font-size: 15px;
+  line-height: 25px;
+  padding-bottom: 75px;
+}
+
+.content__more-info {
+  position: relative;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-flex: 0;
+      -ms-flex: 0 1 47.5%;
+          flex: 0 1 47.5%;
+}
+
+.content__info {
+  margin-bottom: 70px;
+}
+
+.content__info :last-child {
+  margin-bottom: 0;
+}
+
+.info {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.info__img {
+  padding-right: 50px;
+}
+
+.info__text {
+  background-color: #ffffff;
+  -webkit-box-shadow: 0px 5px 10px 0px rgba(0, 0, 0, 0.15);
+          box-shadow: 0px 5px 10px 0px rgba(0, 0, 0, 0.15);
+  border-radius: 5px;
+  line-height: 25px;
+  padding: 32px 64px 30px 30px;
+}
+
+.info__text::before {
+  content: "";
+  background-image: url("/img/icons/keyboard_arrow_up_563.png");
+  background-repeat: no-repeat;
+  height: 14px;
+  width: 23px;
+  position: absolute;
+  top: 0;
+  left: 0px;
+}
+
+.info__title {
+  font-size: 18px;
+  font-weight: 700;
+  color: #061e37;
+}
+
+.info__subtitle {
+  font-size: 15px;
+  font-weight: 400;
+  color: #78909c;
 }
