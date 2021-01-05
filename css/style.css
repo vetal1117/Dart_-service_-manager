@@ -513,11 +513,6 @@ h1, h2, h3, h4, h5, h6 {
   margin: 0 auto;
 }
 
-<<<<<<< HEAD
-.content__top-top {
-  border: 1px solid #000;
-  margin-bottom: 10px;
-=======
 .content__services-column {
   display: -webkit-box;
   display: -ms-flexbox;
@@ -529,101 +524,20 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 .content__top-top {
-  border: 5px solid #3d2b2b;
-  padding: calc(10px + (25 - 10) * ((100vw -320px) / (1200 - 320)));
+  border: 1px solid #e7e7e7;
+  padding: 25px;
 }
 
 .content__top-content {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
->>>>>>> 4ff475ca7bafbe170790104a26b4160f35e87938
 }
 
 .content__main-top {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
-<<<<<<< HEAD
-  height: 50px;
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
-}
-
-.content__mini-logo {
-  padding: 0 15px;
-}
-
-.content__mini-logotext {
-  font-size: 20px;
-  font-weight: 500;
-}
-
-.content__mini-arrow {
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-flex: 1;
-      -ms-flex: 1 1 auto;
-          flex: 1 1 auto;
-  -webkit-box-pack: end;
-      -ms-flex-pack: end;
-          justify-content: flex-end;
-  padding: 0 20px;
-}
-
-.content__item-image {
-  max-width: 100%;
-  display: -webkit-inline-box;
-  display: -ms-inline-flexbox;
-  display: inline-flex;
-}
-
-.content__item-image img {
-  border: 1px solid #000;
-  border-radius: 9px;
-  right: 0;
-}
-
-.content__item-text {
-  float: right;
-}
-
-.maintop {
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  border: 1px solid #000;
-  margin-bottom: 10px;
-  height: 50px;
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
-}
-
-.maintop__minilogo {
-  padding: 0 20px;
-}
-
-.maintop__minilogotext {
-  font-size: 15px;
-  text-transform: uppercase;
-  font-weight: 600;
-}
-
-.maintop__arrow {
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-flex: 1;
-      -ms-flex: 1 1 auto;
-          flex: 1 1 auto;
-  -webkit-box-pack: end;
-      -ms-flex-pack: end;
-          justify-content: flex-end;
-  padding: 0 20px;
-=======
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
@@ -829,20 +743,6 @@ h1, h2, h3, h4, h5, h6 {
   padding: 32px 64px 30px 30px;
 }
 
-<<<<<<< HEAD
-.info__text:before {
-  content: "";
-  background-image: url("/img/icons/keyboard_arrow_up_563.png");
-  background-repeat: no-repeat;
-  height: 14px;
-  width: 23px;
-  position: absolute;
-  top: 0;
-  left: 0px;
-}
-
-=======
->>>>>>> 64e85655f3f35d4a5fbfcfb5bbffca1cbed13044
 .info__title {
   font-size: 18px;
   font-weight: 700;
@@ -853,5 +753,4 @@ h1, h2, h3, h4, h5, h6 {
   font-size: 15px;
   font-weight: 400;
   color: #78909c;
->>>>>>> 4ff475ca7bafbe170790104a26b4160f35e87938
 }
