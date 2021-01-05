@@ -95,7 +95,7 @@
 }
 //================================================================================================================================================================================================================
 .header {
-	display: none;
+	//display: none;
 	min-height: 100vh;
 	padding: 50px 0px 185px 0px;
 	width: 100%;
@@ -186,7 +186,7 @@
 		align-items: center;
 		min-height: 100vh;
 		padding: 100px 0 100px 0;
-		display: none;
+		//display: none;
 	}
 }
 
@@ -284,7 +284,7 @@
 .content {
 	&__statistic-row {
 		display: flex;
-		display: none;
+		//display: none;
 	}
 
 	&__statistic-column1 {
@@ -306,7 +306,8 @@
 	display: flex;
 	align-items: center;
 	justify-content: center;
-	padding: 60px 0px;
+   padding: 60px 0px;
+   
 
 	&__image {
 		width: 60px;
@@ -342,7 +343,7 @@
 //================================================================================================================================================================================================================
 .content {
 	&__services {
-		display: none;
+		//display: none;
 		min-height: 100vh;
 		font-family: Raleway;
 		padding: 100px 0;
@@ -358,8 +359,9 @@
 	}
 
 	&__top-top {
-		border: 1px solid #e7e7e7;
-		padding: 25px;
+		border: 5px solid #3d2b2b;
+      //padding: 25px;
+      padding: calc(10px + (25 - 10) * ((100vw -320px) / (1200 - 320)));
 	}
 	&__top-content {
 		display: flex;
@@ -532,7 +534,7 @@
 		border-radius: 5px;
 		line-height: 25px;
 		padding: 32px 64px 30px 30px;
-				&::before {
+				&:before {
 			content: ('');
 			background-image: url('/img/icons/keyboard_arrow_up_563.png');
 			background-repeat: no-repeat;

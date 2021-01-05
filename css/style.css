@@ -196,7 +196,6 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 .header {
-  display: none;
   min-height: 100vh;
   padding: 50px 0px 185px 0px;
   width: 100%;
@@ -318,7 +317,6 @@ h1, h2, h3, h4, h5, h6 {
           align-items: center;
   min-height: 100vh;
   padding: 100px 0 100px 0;
-  display: none;
 }
 
 .about {
@@ -439,7 +437,6 @@ h1, h2, h3, h4, h5, h6 {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
-  display: none;
 }
 
 .content__statistic-column1 {
@@ -506,7 +503,6 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 .content__services {
-  display: none;
   min-height: 100vh;
   font-family: Raleway;
   padding: 100px 0;
@@ -528,8 +524,8 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 .content__top-top {
-  border: 1px solid #e7e7e7;
-  padding: 25px;
+  border: 5px solid #3d2b2b;
+  padding: calc(10px + (25 - 10) * ((100vw -320px) / (1200 - 320)));
 }
 
 .content__top-content {
@@ -748,7 +744,7 @@ h1, h2, h3, h4, h5, h6 {
   padding: 32px 64px 30px 30px;
 }
 
-.info__text::before {
+.info__text:before {
   content: "";
   background-image: url("/img/icons/keyboard_arrow_up_563.png");
   background-repeat: no-repeat;
