@@ -503,6 +503,7 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 .content__services {
+  display: none;
   min-height: 100vh;
   font-family: Raleway;
   padding: 100px 0;
