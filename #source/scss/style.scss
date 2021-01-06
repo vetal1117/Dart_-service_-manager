@@ -95,7 +95,7 @@
 }
 //================================================================================================================================================================================================================
 .header {
-	//display: none;
+	display: none;
 	min-height: 100vh;
 	padding: 50px 0px 185px 0px;
 	width: 100%;
@@ -109,6 +109,8 @@
 	}
 
 	&__top {
+		width: 80%;
+		height: 15vh;
 		flex-wrap: wrap;
 		display: flex;
 		justify-content: space-between;
@@ -186,7 +188,7 @@
 		align-items: center;
 		min-height: 100vh;
 		padding: 100px 0 100px 0;
-		//display: none;
+		display: none;
 	}
 }
 
@@ -284,7 +286,7 @@
 .content {
 	&__statistic-row {
 		display: flex;
-		//display: none;
+		display: none;
 	}
 
 	&__statistic-column1 {
@@ -307,6 +309,7 @@
 	align-items: center;
 	justify-content: center;
 	padding: 60px 0px;
+	
 
 	&__image {
 		width: 60px;
@@ -462,13 +465,23 @@
 
 //================================================================================================================================================================================================================
 .content {
+	
 	&__portfolio {
+		
+		flex-wrap: wrap;
+		
 		padding: 37px 80px;
 		display: flex;
+		display: none;
 		justify-content: space-between;
 		background-image: linear-gradient(-53deg, #00b8d4 21%, #1de9b6 78%);
 		opacity: 0.94;
 		background-color: #1de9b6;
+		@media (max-width: 767px) {
+			& {
+			justify-content: center;
+			}
+		}
 	}
 
 	&__portfolio-content {
@@ -476,6 +489,7 @@
 		font-family: Raleway;
 		font-weight: 600;
 		flex: 0 1 32.19%;
+		padding: 40px 0px;
 	}
 
 	&__portfolio-title {
@@ -494,6 +508,7 @@
 		display: flex;
 		flex-direction: column;
 		flex: 0 1 47.5%;
+		margin: 40px 0px ;
 	}
 
 	&__info {
@@ -501,78 +516,131 @@
 		:last-child {
 			margin-bottom: 0;
 		}
+
 	}
-
-
 }
-
 
 .info {
 	display: flex;
-   align-items: center;
-   
+	align-items: center;
 
 	&__img {
 		padding-right: 50px;
+		
 	}
+	
 
 	&__text {
-      //position: relative;
+		
+		position: relative;
 		background-color: #ffffff;
 		box-shadow: 0px 5px 10px 0px rgba(0, 0, 0, 0.15);
 		border-radius: 5px;
 		line-height: 25px;
-      padding: 32px 64px 30px 30px;
-      display: inline-flex;
-      flex-direction: column;
-      align-items: center;
-      flex: 1 1 auto;
-      //align-items: center;
+		padding: 32px 30px 30px 30px;
+		display: inline-flex;
+		flex-direction: column;
+		align-items: center;
+		//flex: 0 1 auto;
+		//align-items: center;
 		//&:before {
-      //content: ("m");
-      //position: absolute;
+		//content: ("m");
+		//position: absolute;
 		//background-image: url("/img/icons/keyboard_arrow_up_563.png");
 		//background-repeat: no-repeat;
 		//height: 14px;
 		//width: 23px;
 		// position: fixed;
 		//top: 37px;			// left: 77%;
-      // }
+		// }
+	}
 
-      }
-      
-      &__arrow-up {
-         margin-top: -60px;
-         text-align: center;
-      }
-
-
+	&__arrow-up {
+		margin-top: -60px;
+		text-align: center;
+	}
 
 	&__title {
-      display: flex;
-      align-items:flex-start;
+		display: flex;
+		align-items: flex-start;
 		font-size: 18px;
 		font-weight: 700;
-      color: #061e37;
+		color: #061e37;
 	}
 
 	&__subtitle {
+		text-align: center;
 		font-size: 15px;
 		font-weight: 400;
-      color: #78909c;
-      
-      
-   }
+		color: #78909c;
+		
+	}
 
-   &__arrow-down {
-      position: absolute;
-      //margin-top: 165px;
-      
-      border: 2px solid #000;
-      //align-items:flex-end;
-      
-
-   }
+	&__arrow-down {
+		//border: 1px solid #000;
+		position: absolute;
+		text-align: center;
+		bottom: -40px;
+		
+		
+	
+	}
 }
 
+
+
+
+
+//================================================================================================================================================================================================================
+
+
+
+.content {
+
+	&__our-team {
+		.container {
+			max-width: 645px;
+			margin: 0 auto;
+			text-align: center;
+}
+	}
+
+	&__our-team-column {
+		padding: 50px 0px ;
+	}
+
+
+	&__slider {
+		display: flex;
+		justify-content:space-evenly;
+		align-items: center;
+		:nth-child(odd){
+			opacity: 0.3;
+		}
+		
+	}
+
+	&__mesenger {
+		display: flex;
+		justify-content: center;
+		
+		img{margin: 0px 20px;}
+
+
+
+	}
+}
+
+.top-title {
+
+	&__title {
+		
+		&_mini {
+			padding-top: 50px;
+			font-size: 18px;
+			line-height: 8px;
+		}
+	}
+
+}
 
