@@ -742,9 +742,42 @@ h1, h2, h3, h4, h5, h6 {
   border-radius: 5px;
   line-height: 25px;
   padding: 32px 64px 30px 30px;
+  display: -webkit-inline-box;
+  display: -ms-inline-flexbox;
+  display: inline-flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-flex: 1;
+      -ms-flex: 1 1 auto;
+          flex: 1 1 auto;
+}
+
+.info__arrow-up {
+  margin-top: -60px;
+  text-align: center;
+}
+
+.info__arrow-down {
+  position: absolute;
+  text-align: center;
+  -webkit-box-align: end;
+      -ms-flex-align: end;
+          align-items: flex-end;
+  border: 1px solid #000;
 }
 
 .info__title {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: start;
+      -ms-flex-align: start;
+          align-items: flex-start;
   font-size: 18px;
   font-weight: 700;
   color: #061e37;
