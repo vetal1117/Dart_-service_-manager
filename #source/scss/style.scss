@@ -537,7 +537,8 @@
 		//width: 23px;
 		// position: fixed;
 		//top: 37px;			// left: 77%;
-		// }
+      // }
+
       }
       
       &__arrow-up {
@@ -545,13 +546,7 @@
          text-align: center;
       }
 
-      &__arrow-down {
-         position: absolute;
-         text-align: center;
-         align-items:flex-end;
-         //margin-bottom: 65px;
-         border: 1px solid #000;
-      }
+
 
 	&__title {
       display: flex;
@@ -565,5 +560,19 @@
 		font-size: 15px;
 		font-weight: 400;
       color: #78909c;
-	}
+      
+      
+   }
+
+   &__arrow-down {
+      position: absolute;
+      //margin-top: 165px;
+      
+      border: 2px solid #000;
+      //align-items:flex-end;
+      
+
+   }
 }
+
+
