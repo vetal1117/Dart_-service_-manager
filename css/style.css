@@ -847,3 +847,73 @@ h1, h2, h3, h4, h5, h6 {
   font-size: 18px;
   line-height: 8px;
 }
+
+.content__contact-us {
+  padding: 49px 0px 100px 0px;
+  background-color: #fafafa;
+}
+
+.content__contact-us .container {
+  max-width: 600px;
+  margin: 0 auto;
+  text-align: center;
+}
+
+.forms {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.forms__name {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  margin: 20px 0px;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+.forms__name input {
+  margin-bottom: 20px;
+  padding: 10px;
+  -webkit-box-flex: 0;
+      -ms-flex: 0 1 45%;
+          flex: 0 1 45%;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  border: 1px solid #000;
+  border-radius: 3px;
+}
+
+.forms__textarea {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  text-align-last: left;
+}
+
+.forms__textarea p {
+  padding: 10px;
+}
+
+.forms__textarea div {
+  padding-top: 20px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}

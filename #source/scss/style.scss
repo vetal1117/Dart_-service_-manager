@@ -644,3 +644,65 @@
 
 }
 
+
+
+
+
+
+
+
+
+
+
+.content {
+
+   &__contact-us {
+      padding: 49px 0px 100px 0px;
+      background-color: #fafafa;
+      .container {
+         max-width: 600px;
+         margin: 0 auto;
+         text-align: center;
+}
+   }
+
+   &__forms {
+   }
+}
+
+.forms {
+   display: flex;
+
+   &__name {
+      display: flex;
+      flex-wrap: wrap;
+      margin: 20px 0px;
+      
+      justify-content: space-between;
+      input{margin-bottom: 20px;
+         padding: 10px;
+         flex:0 1 45%;
+         justify-content: space-between;
+         border: 1px solid #000;
+         border-radius: 3px;
+      }
+   }
+
+   &__textarea {
+      
+      display: flex;
+      flex-direction: column;
+      text-align-last: left;
+      p{
+         padding: 10px;
+      }
+      div{
+         padding-top: 20px;
+         display: flex;
+         justify-content: space-between;
+         align-items: center;
+      }
+}
+}
+
+
