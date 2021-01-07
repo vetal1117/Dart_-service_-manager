@@ -54,7 +54,7 @@
 		display: flex;
 		justify-content: space-between;
 
-		li {
+	li {
 			display: inline-flex;
 		}
 	}
@@ -95,7 +95,7 @@
 }
 //================================================================================================================================================================================================================
 .header {
-	display: none;
+	//display: none;
 	min-height: 100vh;
 	padding: 50px 0px 185px 0px;
 	width: 100%;
@@ -109,8 +109,7 @@
 	}
 
 	&__top {
-		width: 80%;
-		height: 15vh;
+
 		flex-wrap: wrap;
 		display: flex;
 		justify-content: space-between;
@@ -186,9 +185,9 @@
 	&__about {
 		display: flex;
 		align-items: center;
-		min-height: 100vh;
+		//min-height: 100vh;
 		padding: 100px 0 100px 0;
-		display: none;
+		//display: none;
 	}
 }
 
@@ -286,7 +285,7 @@
 .content {
 	&__statistic-row {
 		display: flex;
-		display: none;
+		//display: none;
 	}
 
 	&__statistic-column1 {
@@ -345,8 +344,8 @@
 //================================================================================================================================================================================================================
 .content {
 	&__services {
-		display: none;
-		min-height: 100vh;
+		//display: none;
+		// min-height: 100vh;
 		font-family: Raleway;
 		padding: 100px 0;
 		.container {
@@ -472,7 +471,7 @@
 		
 		padding: 37px 80px;
 		display: flex;
-		display: none;
+		//display: none;
 		justify-content: space-between;
 		background-image: linear-gradient(-53deg, #00b8d4 21%, #1de9b6 78%);
 		opacity: 0.94;
@@ -706,3 +705,91 @@
 }
 
 
+
+
+//========================================================================================================================================
+
+
+
+
+
+.footer {background-color:#061e37;
+
+	&__all {
+		display: flex;
+		padding:  100px 0;
+		flex-direction: column;
+		
+		}
+
+	&__1 {display: flex;
+		justify-content: space-between;
+		margin-bottom: 30px;
+	}
+
+	&__logo {
+	}
+
+	&__logo-image {
+	}
+
+	&__logo-text {
+	}
+
+	&__menu {
+	}
+
+	&__2 {display: flex;
+		justify-content: space-between;
+		align-items: center;
+	}
+
+	&__polyciya {
+		display: flex;
+			li{
+				a{display: flex;
+					align-items: center;
+					//display: inline-block;
+				color: #e7e7e7;
+				}
+				:after{
+				content:('');
+				margin-left: 10px;
+				display: inline-flex;
+				background-color: #fff;
+				border-radius: 50%;
+				width: 5px;
+				height: 5px;
+				align-items: center;
+				margin: 0px 20px ;
+				:last-child{
+					display: none;
+				}
+				
+			}
+			&:last-child{
+				:after{
+					display: none;
+				}
+			}
+			}
+	}
+
+	&__mesenger {
+		display: flex;
+		justify-content: center;
+		
+		img{margin: 0px 20px;}
+	}
+}
+
+.logo {
+}
+.menu {
+
+	&__list {
+	}
+
+	&__link {
+	}
+}
