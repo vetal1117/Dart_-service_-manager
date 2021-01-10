@@ -196,6 +196,13 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 .header {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  height: 100%;
   min-height: 100vh;
   padding: 50px 0px 185px 0px;
   width: 100%;
